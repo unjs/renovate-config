@@ -1,0 +1,16 @@
+{
+  "name": "renovate-config-unjs",
+  "version": "0.0.0",
+  "description": "Renovate Bot config for unjs repositories",
+  "license": "MIT",
+  "repository": "unjs/renovate-config",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "devDependencies": {
+    "renovate": "^34.24.0"
+  }
+}
