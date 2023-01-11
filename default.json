@@ -19,7 +19,10 @@
         "pin",
         "digest"
       ],
-      "automerge": true
+      "automerge": true,
+      "automergeSchedule": [
+        "schedule:daily"
+      ]
     }
   ]
 }
