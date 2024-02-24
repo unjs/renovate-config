@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base",
+    "config:recommend",
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
