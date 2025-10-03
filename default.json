@@ -27,6 +27,11 @@
       "schedule": [
         "after 2am and before 3am"
       ]
+    },
+    {
+      "matchDatasources": ["github-tags"],
+      "matchManagers": ["github-actions"],
+      "groupName": "github-actions"
     }
   ]
 }
