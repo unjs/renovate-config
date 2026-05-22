@@ -30,6 +30,13 @@
       "automergeSchedule": [
         "after 2am and before 5am"
       ]
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "github-actions",
+      "schedule": [
+        "after 2am and before 3am"
+      ]
     }
   ]
 }
