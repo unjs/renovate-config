@@ -1,17 +1,20 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
   "meteor": {
     "enabled": false
   },
+  "minimumReleaseAge": "1 day",
   "rangeStrategy": "bump",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
-  "ignoreDeps": ["node"],
+  "ignoreDeps": [
+    "node"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": [
@@ -20,12 +23,12 @@
         "pin",
         "digest"
       ],
-      "automerge": true,
-      "automergeSchedule": [
-        "after 1am and before 2am"
-      ],
+      "automerge": false,
       "schedule": [
-        "after 2am and before 3am"
+        "after 1am and before 5am"
+      ],
+      "automergeSchedule": [
+        "after 2am and before 5am"
       ]
     },
     {
