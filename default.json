@@ -29,13 +29,8 @@
       ]
     },
     {
-      "matchDatasources": ["github-tags"],
       "matchManagers": ["github-actions"],
       "groupName": "github-actions",
-      "automerge": true,
-      "automergeSchedule": [
-        "after 1am and before 2am"
-      ],
       "schedule": [
         "after 2am and before 3am"
       ]
