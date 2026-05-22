@@ -1,6 +1,13 @@
 {
   "extends": [
     "config:recommended",
+    "docker:pinDigests",
+    "helpers:pinGitHubActionDigests",
+    ":configMigration",
+    ":pinDevDependencies",
+    "abandonments:recommended",
+    "security:minimumReleaseAgeNpm",
+    ":maintainLockFilesWeekly",
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
