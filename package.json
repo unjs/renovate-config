@@ -10,8 +10,8 @@
   "files": [
     "default.json"
   ],
-  "packageManager": "pnpm@11.5.2",
+  "packageManager": "pnpm@11.25.0",
   "devDependencies": {
-    "renovate": "^43.216.1"
+    "renovate": "^43.288.0"
   }
 }
